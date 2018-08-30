@@ -1,0 +1,58 @@
+#container
+{
+	background-color:#F4F4F4;
+	height:900px;
+	width:60.24%;
+	margin:0px auto;
+}
+#para1
+{
+	margin-top:15px;
+	width:60%;
+background-color:none;
+color:black;
+
+height:50px;
+float:left;
+
+}
+#para2
+{
+	margin-top:15px;
+	width:70%;
+background-color:none;
+color:#B8B8B8;
+height:150px;
+float:left;
+}
+#para3
+{
+	width:70%;
+	height:30px;
+	background-color:none;
+	color:#B8B8B8;
+	float:left;
+}
+#sign
+{
+	width:30%;
+	height:50px;
+	background-color:none;
+	color:#B8B8B8;
+	float:right;
+}
+
+#footer ul
+{
+	float:left;
+}
+#footer ul li
+{
+	display:inline;
+	margin-right:20px;
+}
+#footer ul li a img
+{ 
+height:20px;
+width: 5%;
+}
