@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+<title>login</title>
+<link rel="stylesheet"type="text/css" href="stylo.css"/>
+<script>
+function get()
+{
+if(username.value=="aruna"&&password.value=="aruna123")
+{
+alert("welcome");
+}
+else
+{
+alert("Sorry!Try again");
+}
+}
+</script>
+</head>
+<body bgcolor="orange">
+<div id="corner">
+<header id="top">
+<img src="images/sweet.jpg"/> 
+
+<ul>
+<li><a href="home.html">HOME</a></li>
+<li><a href="aboutus.html">ABOUT US</a></li>
+<li><a href="contactus.html">CONTACT US</a></li>
+<li><a href="register.html">REGISTER</a></li>
+<li><a href="login.html">LOGIN</a></li>
+</ul>
+
+</header>
+<form method="post">
+<table>
+<tr>
+<td>
+LOGIN:
+</td>
+<td>
+<input type="text" name="login" id="username"><br>
+<br>
+</td>
+</tr>
+<tr>
+<td>
+PASSWORD:
+</td>
+<td>
+<input type="password" name="password"id="password">
+</table>
+</form>
+<input type="submit" onclick="get()"/>
+
+</div>
+<footer id="bottom">
+<a href="https://www.facebook.com"><img src= "images/face.png"width="60px"height="30px"/></a>
+<a href="https://www.youtube.com"><img src= "images/you.png"width="60px"height="30px"/></a>
+<a href="https://twitter.com"><img src= "images/twi.jpg"width="60px"height="30px"/></a>
+</footer>
+
+</body>
+</html>
