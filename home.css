@@ -1,0 +1,14 @@
+#cake
+{
+	height:240px;
+	width:80%;
+	margin:0px auto; 
+}
+#bottom1
+{
+	height:400px;
+	width:50%;
+	float:left;
+	background-color:blue;
+	margin-bottom:50px;
+}
